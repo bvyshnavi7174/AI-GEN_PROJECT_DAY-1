@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa; /* Light cyan background for a fresh look */
+    margin: 0;
+}
+
+.container {
+    background: #ffffff; /* White background for the main content area */
+    padding: 40px; /* Increased padding for more space inside the container */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow for a more prominent effect */
+    max-width: 1200px; /* Further increased maximum width of the container */
+    width: 95%; /* Adjust width to be responsive and wider */
+    text-align: center; /* Center align text */
+}
+
+h1 {
+    color: #00796b; /* Teal color for the header */
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    font-size: 36px; /* Larger font size for the header */
+}
+
+textarea, #summaryOutput {
+    width: 100%;
+    padding: 25px; /* Increased padding for better spacing */
+    border-radius: 8px;
+    border: 1px solid #b2dfdb; /* Light teal border for a cohesive look */
+    box-sizing: border-box;
+    font-size: 24px; /* Larger font size for better readability */
+    margin-bottom: 25px; /* Increased margin between textarea and button/output */
+    resize: vertical; /* Allow resizing only vertically for textarea */
+    overflow: auto; /* Ensure scrollbars appear if content overflows */
+}
+
+textarea {
+    min-height: 250px; /* Increased minimum height for the textarea */
+    max-height: 500px; /* Optional: Limit the maximum height */
+}
+
+button {
+    background-color: #00796b; /* Teal background for the button */
+    color: white;
+    border: none;
+    padding: 20px 40px; /* Increased padding for a larger button */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 24px; /* Match button font size with textarea and summary */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+#summaryOutput {
+    background: #f0f4f4; /* Slightly off-white background for the output */
+    text-align: left; /* Left align text for better readability */
+    min-height: 150px; /* Increased minimum height for the summary output */
+    max-height: 500px; /* Optional: Limit the maximum height */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the maximum height */
+}
+
+
