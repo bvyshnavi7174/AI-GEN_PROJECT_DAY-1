@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather App</h1>
+        </header>
+        <main>
+            <section id="current-weather" class="weather-card">
+                <p id="city-name" class="city-name"></p>
+                <p id="date-time" class="date-time"></p>
+                <div class="weather-info">
+                    <img id="weather-icon" src="" alt="Weather Icon" class="weather-icon">
+                    <p id="weather-description" class="weather-description"></p>
+                    <p id="temperature" class="temperature"></p>
+                </div>
+            </section>
+            <section id="forecast" class="forecast-container">
+                <div id="next-day" class="forecast-card">
+                    <h3>Next Day</h3>
+                    <p id="next-date" class="date"></p>
+                    <div class="weather-info">
+                        <img id="next-weather-icon" src="" alt="Next Day Weather Icon" class="weather-icon">
+                        <p id="next-weather-description" class="weather-description"></p>
+                        <p id="next-temperature" class="temperature"></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Weather data provided by OpenWeather</p>
+        </footer>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
